@@ -22,6 +22,7 @@
             var newnote = document.getElementById("note").value;
             var newappoint = new app.Appointment(selected[0], selected[1], newname, newnote);
             app.scheduler.saveAppointment(newappoint);
+            document.getElementById("myform").reset();
             app.calendarView.load(selected[0]);
         }
     };

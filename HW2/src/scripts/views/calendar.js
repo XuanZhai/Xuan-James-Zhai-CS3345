@@ -1,6 +1,6 @@
 (app => {
 
-    const days = ["Monday", "Tuesday", "Wednesday", "Thursday"];
+    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday'];
 
     // Add the following method to app.calendarView....
     // ** load(tutorId)
@@ -23,7 +23,7 @@
                 var Gappointment = app.scheduler.getAppointment(tutorId,day);
                 var tdd = document.getElementById(day);
                 if(Gappointment !== undefined){
-                    tdd.innerHTML = ` <ul id = "nameul"><li>${Gappointment.name}</li><li">${Gappointment.notes}</li><ul>`;
+                    tdd.innerHTML = ` <ul id = "nameul"><li>${Gappointment.name}</li><li id = "lii">${Gappointment.notes}</li><ul>`;
                 }
                 else{
                     tdd.innerHTML = "";

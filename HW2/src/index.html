@@ -93,13 +93,13 @@
 
     <section id="appointmentView">
       <h2>NEW APPOINTMENT</h2>
-      <form>
+      <form id = "myform" onsubmit="return false;">
         <label for="name" class = "apptext">Name</label><br>
         <input type="text" id="name" name="name"><br>
         <label for="note" class = "apptext">Notes</label><br>
         <textarea type="text" id="note" name="note"> </textarea>
         <button id = "cancel" onclick="app.homeView.load()">Cancel</button>
-        <button id = "book" onclick="app.appointmentView.save()">Book</button>
+        <button id = "booking" onclick="app.appointmentView.save()">Book</button>
       </form>
       <!-- Form to collect name (input) and notes (textarea) goes here -->
       <!-- Cancel button calls app.homeView.load() -->

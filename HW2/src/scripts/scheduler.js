@@ -42,9 +42,9 @@
     ];
 
     let appointments = [
-        new Appointment(1, "Monday", "Sally", "I need lots of Angular help!"),
-        new Appointment(1, "Tuesday", "James", "I don't need help!"),
-        new Appointment(2, "Tuesday", "Tom", "I need help!")
+        new Appointment(1, 'Monday', 'Sally', "I need lots of Angular help!"),
+        new Appointment(1, 'Tuesday', 'James', "I don't need help!"),
+        new Appointment(2, 'Tuesday', 'Tom', "I need help!")
     ];
     
     app.scheduler = {
