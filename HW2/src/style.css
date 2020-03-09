@@ -1,0 +1,176 @@
+main > * {
+    display: none;
+}
+
+main > .active {
+    display: block;
+}
+
+#headtitle {
+    border: 2px solid black;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    background-size: auto;
+}
+
+/* ======================================================== HOME ============================================================= */
+
+#profilecardscontainer{
+  column-count: 2;
+}
+
+#homeView {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#templatedeco {
+    padding: 90px;
+    background-size: 300px 200px;
+    border: 1px solid black;
+    break-inside: avoid-column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+} 
+
+#viewSchedule {
+  font-size: medium;
+  padding: 14px 40px;
+  border-radius: 12px;
+  color:white;
+  background-color: teal;
+  right: 10px;
+  top: 10px;
+  position: absolute;
+  size: auto;
+}
+
+#templateh2{
+  position: absolute;
+  left: 180px;
+  top: 5px;
+}
+
+#templatep{
+  margin-left: 100px;
+}
+
+#seperate{
+  position: relative;
+  margin-right: 5px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  background-color: lightgray;
+}
+
+img{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+/* ======================================================== Calender ============================================================= */
+
+
+table {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+th {
+  text-align: left;
+  background: darkgray;
+  color: #FFF;
+  padding: .4em .6em;
+}
+  
+  td {
+    padding: .4em .6em;
+    height: 100px;
+  }
+  
+  #nameul{
+    list-style-type: none;
+  }
+
+  #calendarView {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  
+
+  #rehome{
+  font-size: medium;
+  padding: 14px 40px;
+  border-radius: 12px;
+  color:white;
+  background-color: gray;
+  position: absolute;
+  }
+  
+  #movetoappointment{
+  font-size: medium;
+  padding: 14px 40px;
+  border-radius: 12px;
+  color:white;
+  background-color: teal;
+  position: absolute;  
+  }
+
+
+/* ======================================================== Appointment ============================================================= */
+
+  #appointmentView {
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  #name{
+    margin-bottom: 0.5em;
+    width: 100%;
+    height: 2em;
+    padding: 14px 40px;
+    font-size: large;
+  }
+  
+  #note{
+    margin-bottom: 0.5em;
+    width: 100%;
+    height: 30em;
+    padding: 14px 40px;
+    font-size: xx-large;
+    font-weight: bold;
+  }
+
+  #cancel{
+  margin-bottom: 0.5em;
+  width: 100%;
+  font-size: medium;
+  padding: 14px 40px;
+  border-radius: 12px;
+  color:white;
+  background-color: gray;
+  }
+
+  #book{
+  margin-bottom: 0.5em;
+  width: 100%;
+  font-size: medium;
+  padding: 14px 40px;
+  border-radius: 12px;
+  color:white;
+  background-color: teal;
+  }
+
+  .apptext{
+    top: 20px;
+
+  }

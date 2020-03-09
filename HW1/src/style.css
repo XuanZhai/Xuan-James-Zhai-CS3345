@@ -1,0 +1,86 @@
+/* Styles go here */
+
+ #introtitle {
+    background-color: lightgray;
+    padding: .4em .4em;
+    box-sizing: content-box;
+    color:rgb(51, 39, 105);
+}
+
+ * {
+     text-align: center;
+     box-sizing: content-box;
+ }
+
+ p.IntroPage {
+    font-size: 150%;
+    overflow: auto;
+ } 
+
+ img.self-portrait{
+    opacity: 1;
+    border: solid .2em black;
+    position: relative;
+    z-index: 1;
+    border-radius: 20em;
+    right: 1em;
+    top: 1em;
+    background: red;
+    color: white;
+ }
+
+ .IntroList {
+    font-size: 160%;
+    margin-left:auto;
+    margin-right:auto;
+    border: solid .2em black;
+    width: fit-content;
+    margin: auto;
+    
+ }
+ table {
+    border: solid .2em black;
+    margin-left:auto;
+    margin-right:auto;
+    width: 60%;
+    margin-bottom: .2em;
+  }
+
+
+  th, td{
+    padding: .6em .6em;
+    text-align: left;
+ }
+
+ tr[name = "target"]{
+     color: black;
+    background: gray;
+ }
+
+
+ tfoot {
+    color: black;
+    background: gold;
+}
+
+ 
+
+ a:hover{
+     color: green;
+ }
+
+ div textarea{
+    width: 600px;
+    height: 300px;
+    float: inline-end;
+    resize: none;
+    border: solid .2em black;
+ }
+ .bottom{
+     clear: unset;
+ }
+ 
+ footer{
+     clear: both;
+     text-align: right;
+ }
