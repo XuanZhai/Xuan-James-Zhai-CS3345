@@ -5,13 +5,24 @@ import ReactDOM from "react-dom";
 
 class ReviewList extends React.Component {
     state = {
-        count : this.props.reviews.length,
     }
 
+    constructor(props){
+        super(props);
+        this.i = 0;
+    }
+
+    handleKey(){               // Assign unique key as index
+        this.i++;
+        return this.i;
+    }
+
+
     render (){
-    
+
+
     const listItems = this.props.reviews.map((item) =>
-        <li className="container bg-white   pt-3 pb-2" key = {item.date + item.userName} style={{ listStyleType: "none" }} >
+        <li className="container bg-white   pt-3 pb-2" key = {this.handleKey()} style={{ listStyleType: "none" }} >
             <div className="card">
                 <div className="card-header pt-3 pb-2" style = {{backgroundColor: " #F0F3F4"}}>
                     <Rating value = {item.rating} />

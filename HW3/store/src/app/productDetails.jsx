@@ -16,7 +16,7 @@ class ProductDetails extends React.Component {
            ),
         }
 
-    onReviewAdded(newReview){
+    onReviewAdded(newReview){                                            // Add new Review to the Review List
         this.setState(prevState => {
             for(let i = 0; i < prevState.product.reviews.length; i++){
                 if(prevState.product.reviews[i] == newReview){
@@ -30,9 +30,9 @@ class ProductDetails extends React.Component {
 
     render () {
       return (
-        <div className ="container">
-            <header>
-                <ul className="breadcrumb">
+        <div className ="container" >
+            <header>                                
+                <ul className="breadcrumb" >
                     <li className="breadcrumb-item"><a href="#">Tasty snacks </a></li>
                     <li className="breadcrumb-item active" aria-current="page">Jif Peanut Butter, 40 ounce</li>
                 </ul>
@@ -51,7 +51,7 @@ class ProductDetails extends React.Component {
                     </div>
                 </div>
             </div>
-            <ReviewList reviews = {this.state.product.reviews} />
+            <ReviewList reviews = {this.state.product.reviews} /> 
             <ReviewForm Onchange = {newreview => this.onReviewAdded(newreview)} />
         </div>
       )

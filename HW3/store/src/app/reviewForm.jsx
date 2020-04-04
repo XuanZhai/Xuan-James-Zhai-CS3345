@@ -12,17 +12,17 @@ class ReviewForm extends React.Component {
         comment : "comment",
     }
     
-    ResetForm = () => {
+    ResetForm = () => {                                     // Reset and clean the form board after submit 
         this.setState({userName: "name", rating : "0", comment : "comment",});
     }
     
-    handleSubmit = (e) => {
+    handleSubmit = (e) => {                            
         e.preventDefault();
         e.target.reset();
         this.ResetForm();
     }
 
-    handleClick = () =>{
+    handleClick = () =>{                            // When users submit the review, the props will change with name, rating, comment, and date
         let newDate = new Date()
         let date = newDate.getDate();
         let monthNumber = (new Date().getMonth());
