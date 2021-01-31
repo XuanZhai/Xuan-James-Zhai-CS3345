@@ -1,2 +1,2 @@
 # CS3345_GUI
-HomeWorks for CS 3345
+HomeWorks for SMU CS 3345
